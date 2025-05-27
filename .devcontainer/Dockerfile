@@ -1,4 +1,4 @@
-FROM ghcr.io/ansible/creator-ee:latest
+FROM ghcr.io/ansible/community-ansible-dev-tools:latest
 
 ARG USERNAME=ansible
 ARG UUID=1000
