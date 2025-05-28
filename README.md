@@ -137,7 +137,7 @@ Once your ssh-agent is running and your key is added, VS Code will forward your 
 No need to mount or copy anything — Ansible inside the container will have access to your forwarded SSH keys.
 
 #### 🛠️ Alternative: Manually mount your SSH key (if ssh-agent isn’t an option)
-You can bind-mount your SSH private key into the container by adding the following line to your .devcontainer/devcontainer.json file under the "mounts" section:
+You can bind-mount your SSH private key into the container by adding the following line to your `.devcontainer/devcontainer.json` file under the "mounts" section:
 
 ```json
 "mounts": [
