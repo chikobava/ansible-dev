@@ -9,8 +9,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "hashicorp.terraform",
-        "hashicorp.hcl",
         "redhat.ansible"
       ]
     }
