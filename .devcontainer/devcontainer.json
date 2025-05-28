@@ -5,9 +5,6 @@
   "remoteUser": "ansible",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
-  "mounts": [
-    "type=bind,source=${env:HOME}/.ssh/id_rsa_ansible,target=/ansible/.ssh/id_rsa"
-  ],
   "runArgs": ["-h", "ansible-dev"],
   "customizations": {
     "vscode": {

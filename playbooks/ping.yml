@@ -1,0 +1,9 @@
+---
+- name: Ping all hosts
+  hosts: all
+  tasks:
+    - name: Ping each host
+      ansible.builtin.ping:
+    - name: Show distribution code name
+      ansible.builtin.debug:
+        var: ansible_distribution_release
